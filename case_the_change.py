@@ -74,55 +74,55 @@ class App(tk.Tk):
 
         # buttons
         self.alternative_case_button = tk.Button(self.button_frame, text="aLtErNaTiVe CaSe", height=3, width=40,
-                                                 font=('Sofia Pro Regular Az.otf', 20), background='darkblue',
+                                                 font=('Sofia Pro Regular Az.otf', 19), background='darkblue',
                                                  command=self.alternativecase)
         self.alternative_case_button.configure(fg='white')
         self.alternative_case_button.grid(row=0, column=0, pady=10, padx=20)
 
         self.camel_case_button = tk.Button(self.button_frame, text="camelCase", height=3, width=40,
-                                           font=('Sofia Pro Regular Az.otf', 20), background='darkblue',
+                                           font=('Sofia Pro Regular Az.otf', 19), background='darkblue',
                                            command=self.camelcase)
         self.camel_case_button.configure(fg='white')
         self.camel_case_button.grid(row=0, column=1, pady=10, padx=20)
 
         self.title_case_button = tk.Button(self.button_frame, text="Title Case", height=3, width=40,
-                                           font=('Sofia Pro Regular Az.otf', 20), background='darkblue',
+                                           font=('Sofia Pro Regular Az.otf', 19), background='darkblue',
                                            command=self.titlecase)
         self.title_case_button.configure(fg='white')
         self.title_case_button.grid(row=0, column=2, pady=10, padx=20)
 
         self.kebab_case_button = tk.Button(self.button_frame, text="kebab-case", height=3, width=40,
-                                           font=('Sofia Pro Regular Az.otf', 20), background='darkblue',
+                                           font=('Sofia Pro Regular Az.otf', 19), background='darkblue',
                                            command=self.kebabCase)
         self.kebab_case_button.configure(fg='white')
         self.kebab_case_button.grid(row=1, column=0, pady=10, padx=20)
 
         self.lower_case_button = tk.Button(self.button_frame, text="lowercase", height=3, width=40,
-                                           font=('Sofia Pro Regular Az.otf', 20), background='darkblue',
+                                           font=('Sofia Pro Regular Az.otf', 19), background='darkblue',
                                            command=self.lowercase)
         self.lower_case_button.configure(fg='white')
         self.lower_case_button.grid(row=1, column=1, pady=10, padx=20)
 
         self.pascal_case_button = tk.Button(self.button_frame, text="PascalCase", height=3, width=40,
-                                            font=('Sofia Pro Regular Az.otf', 20), background='darkblue',
+                                            font=('Sofia Pro Regular Az.otf', 19), background='darkblue',
                                             command=self.pascalcase)
         self.pascal_case_button.configure(fg='white')
         self.pascal_case_button.grid(row=1, column=2, pady=10, padx=20)
 
         self.sentence_case_button = tk.Button(self.button_frame, text="Sentence case", height=3, width=40,
-                                              font=('Sofia Pro Regular Az.otf', 20), background='darkblue',
+                                              font=('Sofia Pro Regular Az.otf', 19), background='darkblue',
                                               command=self.sentencecase)
         self.sentence_case_button.configure(fg='white')
         self.sentence_case_button.grid(row=2, column=0, pady=10, padx=20)
 
         self.snake_case_button = tk.Button(self.button_frame, text="snake_case", height=3, width=40,
-                                           font=('Sofia Pro Regular Az.otf', 20), background='darkblue',
+                                           font=('Sofia Pro Regular Az.otf', 19), background='darkblue',
                                            command=self.snakecase)
         self.snake_case_button.configure(fg='white')
         self.snake_case_button.grid(row=2, column=1, pady=10, padx=20)
 
         self.upper_case_button = tk.Button(self.button_frame, text="UPPER CASE", height=3, width=40,
-                                           font=('Sofia Pro Regular Az.otf', 20), background='darkblue',
+                                           font=('Sofia Pro Regular Az.otf', 19), background='darkblue',
                                            command=self.uppercase)
         self.upper_case_button.configure(fg='white')
         self.upper_case_button.grid(row=2, column=2, pady=10, padx=20)
